@@ -1,0 +1,56 @@
+{
+ "charts": [
+  {
+   "chart_name": "Issues by Status",
+   "label": "Issues by Status"
+  }
+ ],
+ "content": "[\n  {\"type\": \"header\", \"data\": {\"text\": \"Housing Management Command Center\", \"level\": 2}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Housing Properties\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Tenant Assignments\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Apartment Issue Logs\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Property Assets / Inventory\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Property Expense Logs\"}},\n  {\"type\": \"spacer\", \"data\": {}},\n  {\"type\": \"header\", \"data\": {\"text\": \"Property Analytics & Operations\", \"level\": 3}},\n  {\"type\": \"chart\", \"data\": {\"chart_name\": \"Issues by Status\"}}\n]",
+ "creation": "2026-09-07 03:45:20.142031",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "home",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Housing Management",
+ "links": [],
+ "modified": "2026-09-08 03:54:28.408602",
+ "modified_by": "Administrator",
+ "module": "Housing Management",
+ "name": "Housing Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Property Administrator"
+  }
+ ],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "label": "Housing Property",
+   "link_to": "Housing Property",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "",
+   "label": "Property Expense Log",
+   "link_to": "Property Expense Log",
+   "type": "DocType"
+  }
+ ],
+ "title": "Housing Management"
+}
