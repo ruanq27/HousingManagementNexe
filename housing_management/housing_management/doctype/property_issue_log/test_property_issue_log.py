@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestHousingAssignment(FrappeTestCase):
+class TestPropertyIssueLog(FrappeTestCase):
 	pass

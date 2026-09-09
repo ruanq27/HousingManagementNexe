@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Issues by Status",
-   "label": "Issues by Status"
-  }
- ],
- "content": "[\n  {\"type\": \"header\", \"data\": {\"text\": \"Housing Management Command Center\", \"level\": 2}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Housing Properties\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Tenant Assignments\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Apartment Issue Logs\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Property Assets / Inventory\"}},\n  {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Property Expense Logs\"}},\n  {\"type\": \"spacer\", \"data\": {}},\n  {\"type\": \"header\", \"data\": {\"text\": \"Property Analytics & Operations\", \"level\": 3}},\n  {\"type\": \"chart\", \"data\": {\"chart_name\": \"Issues by Status\"}}\n]",
+ "charts": [],
+ "content": "[{\"id\":\"ZfXc6qD4JB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quick Shortcuts</span>\",\"col\":12}},{\"id\":\"2k55LuaVRC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Housing Property\",\"col\":12}},{\"id\":\"EZBPHh4wAy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant Assignment\",\"col\":12}},{\"id\":\"HqAs7ycvYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Issue Log\",\"col\":12}},{\"id\":\"oIgHBi60HX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Expense Log\",\"col\":12}}]",
  "creation": "2026-09-07 03:45:20.142031",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,8 +12,59 @@
  "indicator_color": "",
  "is_hidden": 0,
  "label": "Housing Management",
- "links": [],
- "modified": "2026-09-08 03:54:28.408602",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Housing Property",
+   "link_count": 0,
+   "link_to": "Housing Property",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tenant Assignment",
+   "link_count": 0,
+   "link_to": "Tenant Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Issue Log",
+   "link_count": 0,
+   "link_to": "Property Issue Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Expense Log",
+   "link_count": 0,
+   "link_to": "Property Expense Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Asset",
+   "link_count": 0,
+   "link_to": "Property Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-09-09 03:17:02.804073",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Housing Management",
@@ -35,7 +81,7 @@
    "role": "Property Administrator"
   }
  ],
- "sequence_id": 0.0,
+ "sequence_id": 1.0,
  "shortcuts": [
   {
    "color": "Blue",
@@ -45,7 +91,21 @@
    "type": "DocType"
   },
   {
-   "color": "Green",
+   "color": "Orange",
+   "doc_view": "",
+   "label": "Tenant Assignment",
+   "link_to": "Tenant Assignment",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "",
+   "label": "Property Issue Log",
+   "link_to": "Property Issue Log",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
    "doc_view": "",
    "label": "Property Expense Log",
    "link_to": "Property Expense Log",

@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-09-07 05:50:21.153483",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "property_name",
+  "address",
+  "location_map_link",
+  "primary_image",
+  "property_video",
+  "metrics_section",
+  "square_meters",
+  "cb_metrics",
+  "total_beds",
+  "number_of_occupants",
+  "sec_landlord",
+  "landlord_name",
+  "landlord_phone",
+  "lease_start_date",
+  "lease_end_date",
+  "monthly_rent",
+  "lease_summary",
+  "sec_utilities",
+  "wifi_network",
+  "wifi_password",
+  "utility_notes",
+  "rooms_section",
+  "rooms"
+ ],
+ "fields": [
+  {
+   "default": "PROP-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "PROP-.YYYY.-"
+  },
+  {
+   "fieldname": "property_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Property Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "sec_landlord",
+   "fieldtype": "Section Break",
+   "label": "Landlord & Lease Details"
+  },
+  {
+   "fieldname": "landlord_name",
+   "fieldtype": "Data",
+   "label": "Landlord Name"
+  },
+  {
+   "fieldname": "landlord_phone",
+   "fieldtype": "Data",
+   "label": "Landlord Phone"
+  },
+  {
+   "fieldname": "lease_start_date",
+   "fieldtype": "Date",
+   "label": "Lease Start Date"
+  },
+  {
+   "fieldname": "lease_end_date",
+   "fieldtype": "Date",
+   "label": "Lease End Date"
+  },
+  {
+   "fieldname": "monthly_rent",
+   "fieldtype": "Currency",
+   "label": "Monthly Rent"
+  },
+  {
+   "fieldname": "sec_utilities",
+   "fieldtype": "Section Break",
+   "label": "Utilities & Wi-Fi"
+  },
+  {
+   "fieldname": "wifi_network",
+   "fieldtype": "Data",
+   "label": "Wi-Fi Network Name"
+  },
+  {
+   "fieldname": "wifi_password",
+   "fieldtype": "Data",
+   "label": "Wi-Fi Password"
+  },
+  {
+   "fieldname": "utility_notes",
+   "fieldtype": "Small Text",
+   "label": "Utility Account Numbers / Notes"
+  },
+  {
+   "fieldname": "location_map_link",
+   "fieldtype": "Data",
+   "label": "Location Map Link",
+   "options": "URL"
+  },
+  {
+   "fieldname": "primary_image",
+   "fieldtype": "Attach Image",
+   "label": "Primary Image"
+  },
+  {
+   "fieldname": "property_video",
+   "fieldtype": "Attach",
+   "label": "Property Video"
+  },
+  {
+   "fieldname": "lease_summary",
+   "fieldtype": "Text Editor",
+   "label": "Lease Summary"
+  },
+  {
+   "fieldname": "metrics_section",
+   "fieldtype": "Section Break",
+   "label": "Property Details & Metrics"
+  },
+  {
+   "fieldname": "square_meters",
+   "fieldtype": "Float",
+   "label": "Square Meters (m\u00b2)"
+  },
+  {
+   "fieldname": "cb_metrics",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_beds",
+   "fieldtype": "Int",
+   "label": "Total Beds"
+  },
+  {
+   "fieldname": "number_of_occupants",
+   "fieldtype": "Int",
+   "label": "Number of Occupants"
+  },
+  {
+   "fieldname": "rooms_section",
+   "fieldtype": "Section Break",
+   "label": "Property Rooms & Layout"
+  },
+  {
+   "fieldname": "rooms",
+   "fieldtype": "Table",
+   "label": "Rooms",
+   "options": "Housing Property Room"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-09 03:10:08.048596",
+ "modified_by": "Administrator",
+ "module": "Housing Management",
+ "name": "Housing Property",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Property Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

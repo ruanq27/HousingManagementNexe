@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-09-07 05:55:30.587459",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "employee_name",
+  "employee_id",
+  "status",
+  "sec_property",
+  "property",
+  "room",
+  "sec_dates",
+  "move_in_date",
+  "expected_move_out",
+  "actual_move_out",
+  "sec_checklist",
+  "keys_issued",
+  "wifi_provided",
+  "welcome_pack_given",
+  "inventory_verified",
+  "handover_notes"
+ ],
+ "fields": [
+  {
+   "default": "ASSIGN-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "ASSIGN-.YYYY.-"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Foreign Employee Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee ID / Passport No."
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Assignment Status",
+   "options": "Active\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "sec_property",
+   "fieldtype": "Section Break",
+   "label": "Housing Assignment"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Housing Property",
+   "options": "Housing Property",
+   "reqd": 1
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Property Room",
+   "options": "Property Room"
+  },
+  {
+   "fieldname": "sec_dates",
+   "fieldtype": "Section Break",
+   "label": "Tenancy Period"
+  },
+  {
+   "fieldname": "move_in_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Move-In Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expected_move_out",
+   "fieldtype": "Date",
+   "label": "Expected Move-Out Date"
+  },
+  {
+   "fieldname": "actual_move_out",
+   "fieldtype": "Date",
+   "label": "Actual Move-Out Date"
+  },
+  {
+   "fieldname": "sec_checklist",
+   "fieldtype": "Section Break",
+   "label": "Check-in Handover Checklist"
+  },
+  {
+   "default": "0",
+   "fieldname": "keys_issued",
+   "fieldtype": "Check",
+   "label": "Keys & Access Cards Issued"
+  },
+  {
+   "default": "0",
+   "fieldname": "wifi_provided",
+   "fieldtype": "Check",
+   "label": "Wi-Fi & Utility Credentials Provided"
+  },
+  {
+   "default": "0",
+   "fieldname": "welcome_pack_given",
+   "fieldtype": "Check",
+   "label": "Welcome Pack Issued"
+  },
+  {
+   "default": "0",
+   "fieldname": "inventory_verified",
+   "fieldtype": "Check",
+   "label": "Room Inventory Inspected & Agreed"
+  },
+  {
+   "fieldname": "handover_notes",
+   "fieldtype": "Small Text",
+   "label": "Handover / Special Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-09 02:31:24.292716",
+ "modified_by": "Administrator",
+ "module": "Housing Management",
+ "name": "Tenant Assignment",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Property Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
