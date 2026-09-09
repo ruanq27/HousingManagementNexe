@@ -64,7 +64,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-09-09 03:17:02.804073",
+ "modified": "2026-09-09 04:17:27.884613",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Housing Management",
@@ -86,6 +86,7 @@
   {
    "color": "Blue",
    "doc_view": "",
+   "icon": "building",
    "label": "Housing Property",
    "link_to": "Housing Property",
    "type": "DocType"
@@ -93,6 +94,7 @@
   {
    "color": "Orange",
    "doc_view": "",
+   "icon": "users",
    "label": "Tenant Assignment",
    "link_to": "Tenant Assignment",
    "type": "DocType"
@@ -100,6 +102,7 @@
   {
    "color": "Red",
    "doc_view": "",
+   "icon": "alert-circle",
    "label": "Property Issue Log",
    "link_to": "Property Issue Log",
    "type": "DocType"
@@ -107,6 +110,7 @@
   {
    "color": "Grey",
    "doc_view": "",
+   "icon": "credit-card",
    "label": "Property Expense Log",
    "link_to": "Property Expense Log",
    "type": "DocType"
