@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "housing_management",
-# 		"logo": "/assets/housing_management/logo.png",
-# 		"title": "Housing Management",
-# 		"route": "/housing_management",
-# 		"has_permission": "housing_management.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+    {
+        "name": "housing_management",
+        "logo": "/assets/housing_management/images/house-logo.svg",
+        "title": "Housing Management",
+        "route": "/app/housing-management",
+        "has_view_permission": "frappe.api.get_current_workspace_info"
+    }
+]
 
 # Includes in <head>
 # ------------------
@@ -253,3 +253,9 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+app_logo_url = "/assets/housing_management/images/house-logo.svg"
+
+fixtures = [
+    {"dt": "Workspace", "filters": [["name", "=", "Housing Management"]]},
+    {"dt": "Desktop Icon", "filters": [["name", "=", "Housing Management"]]}
+]

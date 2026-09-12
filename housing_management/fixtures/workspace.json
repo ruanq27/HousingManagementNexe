@@ -1,0 +1,158 @@
+[
+ {
+  "app": "housing_management",
+  "charts": [],
+  "content": "[{\"id\":\"ZfXc6qD4JB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quick Shortcuts</span>\",\"col\":12}},{\"id\":\"2k55LuaVRC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Housing Property\",\"col\":12}},{\"id\":\"EZBPHh4wAy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant Assignment\",\"col\":12}},{\"id\":\"HqAs7ycvYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Issue Log\",\"col\":12}},{\"id\":\"oIgHBi60HX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Expense Log\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "home",
+  "indicator_color": "",
+  "is_hidden": 0,
+  "label": "Housing Management",
+  "link_to": null,
+  "link_type": null,
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Housing Property",
+    "link_count": 0,
+    "link_to": "Housing Property",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Tenant Assignment",
+    "link_count": 0,
+    "link_to": "Tenant Assignment",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Property Issue Log",
+    "link_count": 0,
+    "link_to": "Property Issue Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Property Expense Log",
+    "link_count": 0,
+    "link_to": "Property Expense Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2026-09-12 00:47:40.813689",
+  "module": "Housing Management",
+  "name": "Housing Management",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "System Manager"
+   },
+   {
+    "role": "Property Administrator"
+   }
+  ],
+  "sequence_id": 1.0,
+  "shortcuts": [
+   {
+    "color": "Blue",
+    "doc_view": "",
+    "format": null,
+    "icon": "building",
+    "kanban_board": null,
+    "label": "Housing Property",
+    "link_to": "Housing Property",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Orange",
+    "doc_view": "",
+    "format": null,
+    "icon": "users",
+    "kanban_board": null,
+    "label": "Tenant Assignment",
+    "link_to": "Tenant Assignment",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Red",
+    "doc_view": "",
+    "format": null,
+    "icon": "alert-circle",
+    "kanban_board": null,
+    "label": "Property Issue Log",
+    "link_to": "Property Issue Log",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "",
+    "format": null,
+    "icon": "credit-card",
+    "kanban_board": null,
+    "label": "Property Expense Log",
+    "link_to": "Property Expense Log",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Housing Management",
+  "type": "Workspace"
+ }
+]
