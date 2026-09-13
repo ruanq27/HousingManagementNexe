@@ -21,7 +21,9 @@
   "vendor_name",
   "invoice_number",
   "receipt_file",
-  "remarks"
+  "remarks",
+  "housing_property",
+  "description"
  ],
  "fields": [
   {
@@ -114,12 +116,23 @@
    "fieldname": "remarks",
    "fieldtype": "Small Text",
    "label": "Remarks / Notes"
+  },
+  {
+   "fieldname": "housing_property",
+   "fieldtype": "Link",
+   "label": "Housing Property",
+   "options": "Housing Property"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 02:31:24.097653",
+ "modified": "2026-09-13 03:40:44.155638",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Property Expense Log",

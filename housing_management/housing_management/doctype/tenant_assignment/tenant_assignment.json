@@ -13,7 +13,6 @@
   "status",
   "sec_property",
   "property",
-  "room",
   "sec_dates",
   "move_in_date",
   "expected_move_out",
@@ -23,7 +22,10 @@
   "wifi_provided",
   "welcome_pack_given",
   "inventory_verified",
-  "handover_notes"
+  "handover_notes",
+  "housing_property",
+  "foreign_employee_name",
+  "assignment_status"
  ],
  "fields": [
   {
@@ -66,12 +68,6 @@
    "label": "Housing Property",
    "options": "Housing Property",
    "reqd": 1
-  },
-  {
-   "fieldname": "room",
-   "fieldtype": "Link",
-   "label": "Property Room",
-   "options": "Property Room"
   },
   {
    "fieldname": "sec_dates",
@@ -128,12 +124,32 @@
    "fieldname": "handover_notes",
    "fieldtype": "Small Text",
    "label": "Handover / Special Notes"
+  },
+  {
+   "fieldname": "housing_property",
+   "fieldtype": "Link",
+   "label": "Housing Property",
+   "options": "Housing Property",
+   "reqd": 1
+  },
+  {
+   "fieldname": "foreign_employee_name",
+   "fieldtype": "Data",
+   "label": "Foreign Employee Name",
+   "reqd": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "assignment_status",
+   "fieldtype": "Select",
+   "label": "Assignment Status",
+   "options": "Active\nInactive"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 02:31:24.292716",
+ "modified": "2026-09-13 03:32:48.656976",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Tenant Assignment",

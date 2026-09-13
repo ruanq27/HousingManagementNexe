@@ -18,7 +18,9 @@
   "section_break_1",
   "description",
   "resolution_notes",
-  "property"
+  "property",
+  "housing_property",
+  "repair_cost"
  ],
  "fields": [
   {
@@ -97,12 +99,25 @@
    "in_list_view": 1,
    "label": "Housing Property",
    "options": "Housing Property"
+  },
+  {
+   "fieldname": "housing_property",
+   "fieldtype": "Link",
+   "label": "Housing Property",
+   "options": "Housing Property",
+   "reqd": 1
+  },
+  {
+   "default": "0.0",
+   "fieldname": "repair_cost",
+   "fieldtype": "Currency",
+   "label": "Repair Cost"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 02:31:24.218882",
+ "modified": "2026-09-13 03:31:15.720748",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Property Issue Log",

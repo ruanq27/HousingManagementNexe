@@ -29,8 +29,8 @@
   "wifi_network",
   "wifi_password",
   "utility_notes",
-  "rooms_section",
-  "rooms"
+  "column_break_vxtq",
+  "total_expenses"
  ],
  "fields": [
   {
@@ -149,21 +149,20 @@
    "label": "Number of Occupants"
   },
   {
-   "fieldname": "rooms_section",
-   "fieldtype": "Section Break",
-   "label": "Property Rooms & Layout"
+   "fieldname": "column_break_vxtq",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "rooms",
-   "fieldtype": "Table",
-   "label": "Rooms",
-   "options": "Housing Property Room"
+   "fieldname": "total_expenses",
+   "fieldtype": "Currency",
+   "label": "Total Expenses",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-09-09 03:10:08.048596",
+ "modified": "2026-09-13 03:29:48.270084",
  "modified_by": "Administrator",
  "module": "Housing Management",
  "name": "Housing Property",
